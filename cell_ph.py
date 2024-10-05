@@ -34,7 +34,7 @@ class SimpleNet(nn.Module):
         super(SimpleNet, self).__init__()
         self.fc1 = nn.Linear(input_size, 128)
         self.fc2 = nn.Linear(128, 256)
-        self.fc3 = nn.Linear(256, 512)
+        self.fc3 = nn.Linear(256, 512)1
         self.fc4 = nn.Linear(512, 256)
         self.fc5 = nn.Linear(256, 128)
         self.fc6 = nn.Linear(128, output_size)
